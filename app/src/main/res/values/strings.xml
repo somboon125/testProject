@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">iConsume</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- DETAIL -->
+    <string name="detail_product_name_th">ชื่อผลิตภัณฑ์ (TH)</string>
+    <string name="detail_product_name_en">ชื่อผลิตภัณฑ์ (EN)</string>
+    <string name="detail_status">สถานะ</string>
+    <string name="detail_product_category">ประเภทผลิตภัณฑ์</string>
+    <string name="detail_author_no">ใบสำคัญ/เลขที่อนุญาต</string>
+    <string name="detail_author_name">ชื่อผู้รับอนุญาต</string>
+    <string name="detail_place">สถานที่ผลิต</string>
+    <string name="detail_address">ที่อยู่สถานที่ผลิต</string>
+    <string name="detail_newcode">NewCode</string>
+    <string name="detail_product">รายละเอียดบนสินค้า</string>
+
+    <string name="nav_header_title">นายวินเนอะ เปรอะเปื้อน</string>
+    <string name="nav_header_subtitle">winner.p@cdg.co.th</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="menu_detail">ข้อมูลผลิตภัณฑ์</string>
+    <string name="menu_home">ตรวจสอบผลิตภัณฑ์</string>
+    <string name="menu_coin">แจ้ง อย.</string>
+    <string name="menu_rewards">แลกของรางวัล</string>
+    <string name="menu_setting">ตั้งค่า</string>
+    <string name="menu_about">เกี่ยวกับ อย.</string>
+    <string name="menu_logout">ออกจากระบบ</string>
+    <string name="menu_chat">ติดต่อเจ้าหน้าที่</string>
+
+    <string name="bottom_camera">Take a photo</string>
+    <string name="bottom_gallery">Choose from gallery</string>
+    <string name="bottom_cancel">Cancel</string>
+
+    <!-- Error Msg -->
+    <string name="error_text_recognition">ไม่สามารถอ่านค่าเครื่องหมายผลิตภัณฑ์ได้</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

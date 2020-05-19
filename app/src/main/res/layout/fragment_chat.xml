@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_8"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_8"
+        app:layout_constraintBottom_toTopOf="@id/layout3"
+        tools:layout_editor_absoluteX="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_8"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:background="@android:drawable/editbox_background"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_account_circle_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_8"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_8"
+        app:layout_constraintBottom_toTopOf="@+id/layout2"
+        tools:layout_editor_absoluteX="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_account_circle_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_8"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:background="@android:drawable/editbox_background"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_8"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_8"
+        app:layout_constraintBottom_toTopOf="@id/layout1"
+        tools:layout_editor_absoluteX="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_8"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:background="@android:drawable/editbox_background"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_account_circle_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_8"
+        android:gravity="start"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_8"
+        app:layout_constraintBottom_toTopOf="@+id/linlayBottom"
+        tools:layout_editor_absoluteX="16dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_account_circle_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_8"
+            android:layout_marginEnd="@dimen/margin_8"
+            android:background="@android:drawable/editbox_background"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linlayBottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F9D5C4"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/etvChat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/kanit_light"
+            android:hint="Message"
+            android:paddingStart="@dimen/margin_8"
+            android:paddingEnd="@dimen/margin_8" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnSendMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/ic_send" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "504667780538",
+    "firebase_url": "https://cdg-hackathon2019.firebaseio.com",
+    "project_id": "cdg-hackathon2019",
+    "storage_bucket": "cdg-hackathon2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504667780538:android:934fef73a0a1c46fb65983",
+        "android_client_info": {
+          "package_name": "com.google.firebase.ml.md"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504667780538-0bhni6b6kjjffjr12fi509beh4g1oibb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgwrnVE8Qd6aTqZeHx_BNISx7J7BORNrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504667780538-0bhni6b6kjjffjr12fi509beh4g1oibb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504667780538:android:3bff46a649150d5db65983",
+        "android_client_info": {
+          "package_name": "com.google.firebase.samples.apps.mlkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504667780538-0bhni6b6kjjffjr12fi509beh4g1oibb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgwrnVE8Qd6aTqZeHx_BNISx7J7BORNrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504667780538-0bhni6b6kjjffjr12fi509beh4g1oibb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504667780538:android:900a0a89557be629b65983",
+        "android_client_info": {
+          "package_name": "th.co.cdg.iconsume"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504667780538-0bhni6b6kjjffjr12fi509beh4g1oibb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgwrnVE8Qd6aTqZeHx_BNISx7J7BORNrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504667780538-0bhni6b6kjjffjr12fi509beh4g1oibb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:buttonStyle">@style/ButtonKanit</item>
+        <item name="android:editTextStyle">@style/EditTextKanit</item>
+        <item name="android:checkboxStyle">@style/CheckBoxKanit</item>
+        <item name="android:radioButtonStyle">@style/RadioButtonKanit</item>
+        <item name="android:textViewStyle">@style/TextViewKanit</item>
+
+
+        AppCompatTextView
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TextViewKanit" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/kanit_light</item>
+    </style>
+
+    <style name="ButtonKanit" parent="android:Widget.Button">
+        <item name="android:fontFamily">@font/kanit_light</item>
+    </style>
+
+    <style name="EditTextKanit" parent="android:Widget.EditText">
+        <item name="android:fontFamily">@font/kanit_light</item>
+    </style>
+
+    <style name="CheckBoxKanit" parent="android:Widget.CompoundButton.CheckBox">
+        <item name="android:fontFamily">@font/kanit_light</item>
+        <item name="android:textAppearance">@font/kanit_light</item>
+    </style>
+
+    <style name="RadioButtonKanit" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:fontFamily">@font/kanit_light</item>
+    </style>
+
+</resources>
